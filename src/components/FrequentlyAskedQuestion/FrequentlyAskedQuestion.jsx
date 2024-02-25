@@ -5,9 +5,14 @@ export const FrequentlyAskedQuestion = () => {
     return (
       <details key={index}>
         <summary>{item.question}</summary>
-        <span>{item.answer}</span>
+        <p>{item.answer}</p>
       </details>
     );
   });
-  return <>{faqList}</>;
+  return (
+    <>
+      <h1>FAQ</h1>
+      {faqList}
+    </>
+  );
 };
