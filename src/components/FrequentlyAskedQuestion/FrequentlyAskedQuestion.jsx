@@ -3,10 +3,13 @@ import data from "./data.json";
 export const FrequentlyAskedQuestion = () => {
   const faqList = data.map((item, index) => {
     return (
-      <details key={index}>
-        <summary>{item.question}</summary>
-        <p>{item.answer}</p>
-      </details>
+      <>
+        <details key={index}>
+          <summary>{item.question}</summary>
+          <p>{item.answer}</p>
+        </details>
+        <hr />
+      </>
     );
   });
   return (
