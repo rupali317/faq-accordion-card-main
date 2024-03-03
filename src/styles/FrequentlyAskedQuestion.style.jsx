@@ -5,13 +5,17 @@ export const Summary = styled.summary`
   font-size: var(--font-size-base);
   color: var(--color-neutral-dark-2);
   line-height: var(--line-height-normal);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  &::marker {
-    content: url("/images/icon-arrow-down.svg");
+  &:hover {
+    color: var(--color-hover-1);
+    cursor: pointer;
   }
 
-  [open] &::marker {
-    transform: rotate(180deg);
+  &::marker {
+    content: "";
   }
 
   [open] & {
@@ -19,6 +23,10 @@ export const Summary = styled.summary`
     color: var(--color-neutral-dark-1);
   }
 `;
+
+// export const ArrowImg = styled.img`
+//   transform: rotate(90deg);
+// `;
 
 export const Details = styled.details`
   padding-top: var(--space-base-4);

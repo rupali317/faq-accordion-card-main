@@ -8,7 +8,15 @@ export const FrequentlyAskedQuestion = () => {
         {" "}
         {/*RRC: Check the tag*/}
         <FaqStyles.Details>
-          <FaqStyles.Summary>{item.question}</FaqStyles.Summary>
+          <FaqStyles.Summary>
+            <span>{item.question}</span>
+            <img
+              src="/images/icon-arrow-down.svg"
+              alt="Button to toggle the display of the content"
+              role="presentation"
+            />{" "}
+            {/* Accessibility improvement */}
+          </FaqStyles.Summary>
           <FaqStyles.Paragraph>{item.answer}</FaqStyles.Paragraph>
         </FaqStyles.Details>
         <FaqStyles.Divider />
