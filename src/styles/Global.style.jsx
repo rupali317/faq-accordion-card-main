@@ -25,7 +25,21 @@ export const BaseStyles = createGlobalStyle`
         --line-height-auto: normal;
 
         /* Spacing */
-        
+        --space-xs-1: 0.0625rem; /* 1px */
+        --space-s-1: 0.6875rem; /* 11px */
+        --space-s-2: 0.75rem; /* 12px */
+        --space-base-1: 1rem; /* 16px */
+        --space-base-2: 1.0625rem; /* 17px */
+        --space-base-3: 1.125rem; /* 18px */
+        --space-base-4: 1.1875rem; /* 19px */
+        --space-m-1: 1.5rem; /* 24px */
+        --space-m-2: 2rem; /* 32px */
+        --space-l-1: 2.8125rem; /* 45px */
+        --space-l-2: 3rem; /* 48px */
+        --space-l-3: 4.0625rem; /* 65px */
+        --space-xl-1: 5.1875rem; /* 83px */
+        --space-xl-2: 5.9375rem; /* 95px */
+        --space-xl-3: 8.25rem; /* 132px */
 
         /* Borders */
         --border-radius-soft: 1.4375rem; /* 23px */
@@ -34,6 +48,20 @@ export const BaseStyles = createGlobalStyle`
 
         /* Shadows */
         --box-shadow: 0rem 3.125rem 3.125rem -1.25rem var(--color-box-shadow);       
+    }
+
+    @font-face {
+        font-family: "Kumbh Sans";
+        src: url("/fonts/KumbhSans-Bold.ttf") format("truetype");
+        font-weight: 700;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "Kumbh Sans";
+        src: url("/fonts/KumbhSans-Regular.ttf") format("truetype");
+        font-weight: 400;
+        font-display: swap;
     }
 `;
 
@@ -104,6 +132,8 @@ export const ResetStyles = createGlobalStyle`
 `;
 
 export const DefaultStyles = createGlobalStyle`
+    // for the ::marker -> content: url();
+    body {
+        font-family: "Kumbh Sans", sans-serif;
+    }
 `;
-
-// for the ::marker -> content: url();
