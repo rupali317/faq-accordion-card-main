@@ -4,7 +4,7 @@ import { Footer } from "./components/Footer";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("main"));
 const footer = ReactDOM.createRoot(document.getElementById("footer"));
 
 root.render(

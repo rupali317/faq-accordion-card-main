@@ -40,11 +40,12 @@ export const BaseStyles = createGlobalStyle`
         --space-xl-1: 5.1875rem; /* 83px */
         --space-xl-2: 5.9375rem; /* 95px */
         --space-xl-3: 8.25rem; /* 132px */
+        --space-xl-4: 9.25rem; /* 148px */
 
         /* Borders */
         --border-radius-soft: 1.4375rem; /* 23px */
         --border-radius-none: 0rem;
-        --border-width-s: 0.0625rem /* 1px */
+        --border-width-s: 0.0625rem; /* 1px */
 
         /* Shadows */
         --box-shadow: 0rem 3.125rem 3.125rem -1.25rem var(--color-box-shadow);       
@@ -132,8 +133,23 @@ export const ResetStyles = createGlobalStyle`
 `;
 
 export const DefaultStyles = createGlobalStyle`
-    // for the ::marker -> content: url();
     body {
         font-family: "Kumbh Sans", sans-serif;
+        font-weight: var(--font-weight-regular);
+        background: var(--color-background);
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-l-2);
+        padding-top: var(--space-xl-4);
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        background-color: var(--color-neutral-light-1);
+        border-radius: var(--border-radius-soft);
+        padding: var(--space-xl-3) var(--space-m-1) var(--space-l-2);
+        box-shadow: var(--box-shadow);
+        max-width: 20.4375rem; /* 327px */
     }
 `;
