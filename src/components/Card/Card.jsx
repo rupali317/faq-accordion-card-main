@@ -6,14 +6,14 @@ export const Card = () => {
     <>
       <picture>
         <source
-          srcset="/images/bg-pattern-desktop.svg"
+          srcSet="/images/bg-pattern-desktop.svg"
           media={`(min-width:${DesktopWidth})`}
         />
         <img src="/images/bg-pattern-mobile.svg" alt="" role="presentation" />
       </picture>
       <picture>
         <source
-          srcset="/images/illustration-box-desktop.svg"
+          srcSet="/images/illustration-box-desktop.svg"
           media={`(min-width:${DesktopWidth})`}
         />
         <img src="" alt="" />
@@ -21,7 +21,7 @@ export const Card = () => {
       </picture>
       <picture>
         <source
-          srcset="/images/illustration-woman-online-desktop.svg"
+          srcSet="/images/illustration-woman-online-desktop.svg"
           media={`(min-width:${DesktopWidth})`}
         />
         <img
