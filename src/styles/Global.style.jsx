@@ -23,7 +23,7 @@ export const BaseStyles = createGlobalStyle`
         --font-weight-bold: 700;
 
         --line-height-s: 1.125rem; /* 18px */
-        --line-height-auto: normal;
+        --line-height-normal: normal;
 
         /* Spacing */
         --space-xs-1: 0.0625rem; /* 1px */
@@ -146,6 +146,6 @@ export const DefaultStyles = createGlobalStyle`
         border-radius: var(--border-radius-soft);
         padding: var(--space-xl-3) var(--space-m-1) var(--space-l-2);
         box-shadow: var(--box-shadow-1);
-        max-width: 20.4375rem; /* 327px */
+        max-width: 20.4375rem; /* 327px */ /* RRC: Check this max-width and undertand the usage */
     }
 `;
