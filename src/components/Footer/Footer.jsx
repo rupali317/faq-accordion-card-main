@@ -1,23 +1,25 @@
+import * as FooterStyles from "../../styles/Footer.style";
+
 export const Footer = () => {
   return (
-    <small>
-      Challenge by
-      <a
+    <FooterStyles.Small>
+      Challenge by{" "}
+      <FooterStyles.Link
         href="https://www.frontendmentor.io/profile/rupali317"
         target="_blank"
         rel="noreferrer"
       >
         Frontend Mentor
-      </a>
+      </FooterStyles.Link>
       . Coded by{" "}
-      <a
+      <FooterStyles.Link
         href="https://www.linkedin.com/in/rupali-rc/"
         target="_blank"
         rel="noreferrer"
       >
         Rupali Roy Choudhury
-      </a>
+      </FooterStyles.Link>
       .
-    </small>
+    </FooterStyles.Small>
   );
 };

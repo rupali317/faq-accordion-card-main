@@ -8,7 +8,8 @@ export const BaseStyles = createGlobalStyle`
         --color-neutral-dark-1: hsl(238, 29%, 17%); /* #1e1f36 */
         --color-neutral-dark-2: hsl(237, 12%, 33%); /* #4b4c5f */
         --color-neutral-dark-3: hsl(240, 6%, 50%); /* #787887 */
-        --color-hover: hsl(14, 88%, 65%); /* #f47b56 */
+        --color-hover-1: hsl(14, 88%, 65%); /* #f47b56 */
+        --color-hover-2: hsl(56, 95%, 56%); /* #f9eb24 */
         --color-box-shadow: hsla(261, 75%, 27%, 49.72%); /* #35127a */
         --color-background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 74%, 65%));
         
@@ -48,7 +49,7 @@ export const BaseStyles = createGlobalStyle`
         --border-width-s: 0.0625rem; /* 1px */
 
         /* Shadows */
-        --box-shadow: 0rem 3.125rem 3.125rem -1.25rem var(--color-box-shadow);       
+        --box-shadow-1: 0rem 3.125rem 3.125rem -1.25rem var(--color-box-shadow);   /* 0px 50px 50px -20px */
     }
 
     @font-face {
@@ -125,11 +126,6 @@ export const ResetStyles = createGlobalStyle`
         max-width: 100%;
         display: block;
     }
-
-    button {
-        border-width: 0rem;
-        font: inherit;
-    }
 `;
 
 export const DefaultStyles = createGlobalStyle`
@@ -149,7 +145,7 @@ export const DefaultStyles = createGlobalStyle`
         background-color: var(--color-neutral-light-1);
         border-radius: var(--border-radius-soft);
         padding: var(--space-xl-3) var(--space-m-1) var(--space-l-2);
-        box-shadow: var(--box-shadow);
+        box-shadow: var(--box-shadow-1);
         max-width: 20.4375rem; /* 327px */
     }
 `;
