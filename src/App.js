@@ -7,7 +7,7 @@ function App() {
       <GlobalStyles.BaseStyles />
       <GlobalStyles.ResetStyles />
       <GlobalStyles.DefaultStyles />
-      <Card />;
+      <Card />
     </>
   );
 }
