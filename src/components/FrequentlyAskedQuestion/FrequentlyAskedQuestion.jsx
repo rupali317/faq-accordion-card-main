@@ -10,7 +10,7 @@ export const FrequentlyAskedQuestion = () => {
         <FaqStyles.Details>
           <FaqStyles.Summary>
             <span>{item.question}</span>
-            <img
+            <FaqStyles.ArrowImage
               src="/images/icon-arrow-down.svg"
               alt="Button to toggle the display of the content"
               role="presentation"

@@ -137,6 +137,7 @@ export const DefaultStyles = createGlobalStyle`
         flex-direction: column;
         gap: var(--space-l-2);
         padding-top: var(--space-xl-4);
+        padding-bottom: var(--space-base-1);
         justify-content: center;
         align-items: center;
     }
@@ -146,6 +147,11 @@ export const DefaultStyles = createGlobalStyle`
         border-radius: var(--border-radius-soft);
         padding: var(--space-xl-3) var(--space-m-1) var(--space-l-2);
         box-shadow: var(--box-shadow-1);
-        max-width: 20.4375rem; /* 327px */ /* RRC: Check this max-width and undertand the usage */
+        min-width: 20.4375rem; /* 327px */ /* RRC: Check this max-width, min-width and undertand the usage */
+    }
+
+    footer {
+        text-align: center;
+        max-width: 70%;
     }
 `;

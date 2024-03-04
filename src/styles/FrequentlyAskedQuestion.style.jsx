@@ -24,9 +24,15 @@ export const Summary = styled.summary`
   }
 `;
 
-// export const ArrowImg = styled.img`
-//   transform: rotate(90deg);
-// `;
+export const ArrowImage = styled.img`
+  /* RRC: Experiment if the icon can be rotated like in a full circle from open to closed state ? */
+  transition: transform 0.2s ease;
+
+  [open] & {
+    transform: rotate(180deg);
+    transition: transform 0.2s linear;
+  }
+`;
 
 export const Details = styled.details`
   padding-top: var(--space-base-4);
