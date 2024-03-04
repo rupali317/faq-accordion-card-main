@@ -1,5 +1,6 @@
 import { FrequentlyAskedQuestion } from "../FrequentlyAskedQuestion";
 import { DesktopWidth } from "../../constants/Breakpoints";
+import * as PictureStyles from "../../styles/Card.style";
 
 export const Card = () => {
   return (
@@ -9,7 +10,11 @@ export const Card = () => {
           srcSet="/images/bg-pattern-desktop.svg"
           media={`(min-width:${DesktopWidth})`}
         />
-        <img src="/images/bg-pattern-mobile.svg" alt="" role="presentation" />
+        <PictureStyles.BackgroundImage
+          src="/images/bg-pattern-mobile.svg"
+          alt=""
+          role="presentation"
+        />
       </picture>
       <picture>
         <source
@@ -24,7 +29,7 @@ export const Card = () => {
           srcSet="/images/illustration-woman-online-desktop.svg"
           media={`(min-width:${DesktopWidth})`}
         />
-        <img
+        <PictureStyles.MainImage
           src="/images/illustration-woman-online-mobile.svg"
           alt=""
           role="presentation"
