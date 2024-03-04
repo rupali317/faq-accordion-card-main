@@ -34,6 +34,10 @@ export const ArrowImage = styled.img`
   }
 `;
 
+export const Section = styled.section`
+  min-width: 17.5rem; /* 280px */ /* RRC: Check this max-width, min-width and undertand the usage */
+`;
+
 export const Details = styled.details`
   padding-top: var(--space-base-4);
   padding-bottom: var(--space-base-3);

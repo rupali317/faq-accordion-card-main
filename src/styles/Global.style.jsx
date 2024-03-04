@@ -147,7 +147,7 @@ export const DefaultStyles = createGlobalStyle`
         border-radius: var(--border-radius-soft);
         padding: var(--space-xl-3) var(--space-m-1) var(--space-l-2);
         box-shadow: var(--box-shadow-1);
-        min-width: 20.4375rem; /* 327px */ /* RRC: Check this max-width, min-width and undertand the usage */
+        max-width: 20.4375rem; /* 327px */ /* RRC: Check this max-width, min-width and undertand the usage */
     }
 
     footer {

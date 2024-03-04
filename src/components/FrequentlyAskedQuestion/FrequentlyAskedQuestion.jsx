@@ -4,7 +4,7 @@ import * as FaqStyles from "../../styles/FrequentlyAskedQuestion.style";
 export const FrequentlyAskedQuestion = () => {
   const faqList = data.map((item, index) => {
     return (
-      <section key={index}>
+      <FaqStyles.Section key={index}>
         {" "}
         {/*RRC: Check the tag*/}
         <FaqStyles.Details>
@@ -20,7 +20,7 @@ export const FrequentlyAskedQuestion = () => {
           <FaqStyles.Paragraph>{item.answer}</FaqStyles.Paragraph>
         </FaqStyles.Details>
         <FaqStyles.Divider />
-      </section>
+      </FaqStyles.Section>
     );
   });
   return (
