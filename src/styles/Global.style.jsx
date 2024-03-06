@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { DesktopWidth } from "../constants/Breakpoints";
 
 export const BaseStyles = createGlobalStyle`
     :root {
@@ -42,6 +43,7 @@ export const BaseStyles = createGlobalStyle`
         --space-xl-2: 5.9375rem; /* 95px */
         --space-xl-3: 8.25rem; /* 132px */
         --space-xl-4: 9.25rem; /* 148px */
+        --space-xl-5: 29.6875rem; /* 475px */
 
         /* Borders */
         --border-radius-soft: 1.4375rem; /* 23px */
@@ -154,5 +156,13 @@ export const DefaultStyles = createGlobalStyle`
     footer {
         text-align: center;
         max-width: 70%;
+    }
+
+    @media (min-width: ${DesktopWidth}) {
+        main {
+            clip-path: border-box;
+            padding: var(--space-l-3) var(--space-xl-2) var(--space-xl-1) var(--space-xl-5);
+            max-width: initial;
+        }
     }
 `;

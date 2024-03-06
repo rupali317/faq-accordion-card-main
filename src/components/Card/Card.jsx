@@ -21,7 +21,7 @@ export const Card = () => {
           srcSet="/images/illustration-box-desktop.svg"
           media={`(min-width:${DesktopWidth})`}
         />
-        <img src="" alt="" />
+        <PictureStyles.BoxImage src="" alt="" />
         {/* So that it does not appear in mobile version */}
       </picture>
       <picture>
