@@ -153,6 +153,10 @@ export const DefaultStyles = createGlobalStyle`
         position: relative; /* Recheck if this positioning is the right way to go about in Card.style.jsx */
     }
 
+    #root {
+        position: relative;
+    }
+
     footer {
         text-align: center;
         max-width: 70%;

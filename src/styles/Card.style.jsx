@@ -29,8 +29,8 @@ export const MainImage = styled.img`
 export const BoxImage = styled.img`
   @media (min-width: ${DesktopWidth}) {
     position: absolute;
-    right: 47rem; /* 752px */
-    top: 11.7rem;
+    left: -5.5rem;
+    top: 11.5rem;
     z-index: 1;
   }
 `;
