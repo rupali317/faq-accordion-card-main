@@ -23,6 +23,10 @@ export const Summary = styled.summary`
     font-weight: var(--font-weight-bold);
     color: var(--color-neutral-dark-1);
   }
+
+  @media (min-width: ${DesktopWidth}) {
+    font-size: var(--font-size-m);
+  }
 `;
 
 export const ArrowImage = styled.img`
@@ -57,6 +61,10 @@ export const Paragraph = styled.p`
   font-size: var(--font-size-s);
   color: var(--color-neutral-dark-3);
   line-height: var(--line-height-s);
+
+  @media (min-width: ${DesktopWidth}) {
+    padding-top: var(--space-s-1);
+  }
 `;
 
 export const Divider = styled.hr`
