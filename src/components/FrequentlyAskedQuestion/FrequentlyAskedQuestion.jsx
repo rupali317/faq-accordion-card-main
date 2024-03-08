@@ -25,7 +25,7 @@ export const FrequentlyAskedQuestion = () => {
   });
   return (
     <>
-      <FaqStyles.MainHeading>FAQ</FaqStyles.MainHeading>
+      <FaqStyles.MainHeading>faq</FaqStyles.MainHeading>
       {faqList}
     </>
   );

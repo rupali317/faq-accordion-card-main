@@ -166,7 +166,7 @@ export const DefaultStyles = createGlobalStyle`
         main {
             clip-path: border-box;
             padding: var(--space-l-3) var(--space-xl-2) var(--space-xl-1) var(--space-xl-5);
-            max-width: initial;
+            max-width: 57.5rem; /* 920px */
         }
     }
 `;

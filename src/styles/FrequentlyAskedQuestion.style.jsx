@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { DesktopWidth } from "../constants/Breakpoints";
 
 export const Summary = styled.summary`
   padding-left: var(--space-xs-1);
@@ -36,15 +37,18 @@ export const ArrowImage = styled.img`
 
 export const Section = styled.section`
   min-width: 17.5rem; /* 280px */ /* RRC: Check this max-width, min-width and undertand the usage */
+
+  @media (min-width: ${DesktopWidth}) {
+    min-width: 21.875rem; /* 350px */
+  }
 `;
 
 export const Details = styled.details`
   padding-top: var(--space-base-4);
   padding-bottom: var(--space-base-3);
 
-  &[open] {
-    padding-top: var(--space-base-2);
-    padding-bottom: var(--space-base-1);
+  @media (min-width: ${DesktopWidth}) {
+    padding-top: var(--space-base-3);
   }
 `;
 
@@ -66,4 +70,10 @@ export const MainHeading = styled.h1`
   font-weight: var(--font-weight-bold);
   text-align: center;
   margin-bottom: 0.8125rem; /* 13px */
+  text-transform: uppercase;
+
+  @media (min-width: ${DesktopWidth}) {
+    text-align: left;
+    margin-bottom: 1.1875rem; /* 19px */
+  }
 `;
