@@ -9,9 +9,9 @@ export const BackgroundImage = styled.img`
   top: 0.125rem; /* 2px */
 
   @media (min-width: ${DesktopWidth}) {
-    width: initial;
-    left: -28.8rem;
-    top: -15.875rem;
+    width: 100%;
+    left: -29.8rem;
+    top: -17.875rem;
   }
 `;
 
@@ -23,7 +23,7 @@ export const MainImage = styled.img`
 
   @media (min-width: ${DesktopWidth}) {
     width: 57%;
-    top: 3.3125rem;
+    top: 1.3125rem;
     left: -5.1875rem;
   }
 `;
