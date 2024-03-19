@@ -145,15 +145,15 @@ export const DefaultStyles = createGlobalStyle`
     }
 
     main {
+        position: relative; /* Recheck if this positioning is the right way to go about in Card.style.jsx */
+        padding: var(--space-xl-3) var(--space-m-1) var(--space-l-2);
+        max-width: 20.4375rem; /* 327px */ /* RRC: Check this max-width, min-width and undertand the usage */
+    }
+    
+    #root {
         background-color: var(--color-neutral-light-1);
         border-radius: var(--border-radius-soft);
-        padding: var(--space-xl-3) var(--space-m-1) var(--space-l-2);
         box-shadow: var(--box-shadow-1);
-        max-width: 20.4375rem; /* 327px */ /* RRC: Check this max-width, min-width and undertand the usage */
-        position: relative; /* Recheck if this positioning is the right way to go about in Card.style.jsx */
-    }
-
-    #root {
         position: relative;
     }
 
