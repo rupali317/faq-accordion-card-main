@@ -32,6 +32,8 @@ export const Summary = styled.summary`
 export const ArrowImage = styled.img`
   /* RRC: Experiment if the icon can be rotated like in a full circle from open to closed state ? */
   transition: transform 0.2s ease;
+  width: 0.7rem;
+  height: 0.5rem;
 
   [open] & {
     transform: rotate(180deg);
