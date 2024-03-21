@@ -19,6 +19,10 @@ export const Summary = styled.summary`
     content: "";
   }
 
+  &::-webkit-details-marker {
+    display: none; /* Safari has shadow content -webkit-details-marker by default */
+  }
+
   [open] & {
     font-weight: var(--font-weight-bold);
     color: var(--color-neutral-dark-1);
