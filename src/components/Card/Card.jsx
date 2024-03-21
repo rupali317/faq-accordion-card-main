@@ -41,7 +41,7 @@ export const Card = () => {
           <source
             srcSet="/images/illustration-woman-online-desktop.svg"
             media={`(min-width:${DesktopWidth})`}
-            fetchpriority="high"
+            // fetchpriority="high"
           />
           <PictureStyles.MainImage
             src="/images/illustration-woman-online-mobile.svg"
@@ -49,7 +49,7 @@ export const Card = () => {
             role="presentation"
             width="472"
             height="359"
-            fetchpriority="high"
+            // fetchpriority="high"
           />
         </picture>
         <FrequentlyAskedQuestion />
