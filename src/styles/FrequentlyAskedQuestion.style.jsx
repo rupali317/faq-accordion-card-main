@@ -24,7 +24,7 @@ export const Summary = styled.summary`
   }
 
   &:focus-visible {
-    outline: var(--border-width-s) solid var(--color-neutral-dark-1);
+    outline: var(--border-width-s) solid var(--color-neutral-dark-1); /* Safari has a weird issue about focus styling */
   }
 
   [open] & {

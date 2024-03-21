@@ -13,6 +13,8 @@ export const FrequentlyAskedQuestion = () => {
             <FaqStyles.ArrowImage
               src="/images/icon-arrow-down.svg"
               alt="Button to toggle the display of the content"
+              width="11"
+              height="8"
             />{" "}
             {/* Accessibility improvement */}
           </FaqStyles.Summary>
