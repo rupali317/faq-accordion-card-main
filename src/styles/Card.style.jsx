@@ -4,14 +4,12 @@ import { DesktopWidth } from "../constants/Breakpoints";
 /* Recheck if this positioning is the right way to go about */
 export const BackgroundImage = styled.img`
   position: absolute;
-  /* width: 72.5%; */
   left: 2.75rem;
   top: 0.125rem;
   width: 15rem; /* 240px */ /* RRC: Not sure if this is right */
   height: 6.5rem; /* 104px */ /* RRC: Not sure if this is right */
 
   @media (min-width: ${DesktopWidth}) {
-    /* width: 100%; */
     left: -32.8rem;
     top: -20.875rem;
     width: 60.375rem; /* 966px */
@@ -21,14 +19,12 @@ export const BackgroundImage = styled.img`
 
 export const MainImage = styled.img`
   position: absolute;
-  /* width: 72.5%; */
   top: -6.6875rem;
   left: 2.85rem;
   width: 14.4375rem; /* 231px */ /* RRC: Not sure if this is right */
   height: 10.9375rem; /* 175px */ /* RRC: Not sure if this is right */
 
   @media (min-width: ${DesktopWidth}) {
-    /* width: 57%; */
     top: 1.3125rem;
     left: -5.1875rem;
     width: 29.5rem; /* 472px */

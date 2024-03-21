@@ -48,6 +48,7 @@ export const Card = () => {
             role="presentation"
             width="472"
             height="359"
+            fetchpriority="high"
           />
         </picture>
         <FrequentlyAskedQuestion />
