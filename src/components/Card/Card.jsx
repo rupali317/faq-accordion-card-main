@@ -41,6 +41,7 @@ export const Card = () => {
           <source
             srcSet="/images/illustration-woman-online-desktop.svg"
             media={`(min-width:${DesktopWidth})`}
+            fetchpriority="high"
           />
           <PictureStyles.MainImage
             src="/images/illustration-woman-online-mobile.svg"
