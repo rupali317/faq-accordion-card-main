@@ -9,8 +9,6 @@ export const Card = () => {
         <source
           srcSet="/images/illustration-box-desktop.svg"
           media={`(min-width:${DesktopWidth})`}
-          width="0"
-          height="0"
         />
         <PictureStyles.BoxImage
           src=""
@@ -26,8 +24,6 @@ export const Card = () => {
           <source
             srcSet="/images/bg-pattern-desktop.svg"
             media={`(min-width:${DesktopWidth})`}
-            width="240"
-            height="104"
           />
           <PictureStyles.BackgroundImage
             src="/images/bg-pattern-mobile.svg"
