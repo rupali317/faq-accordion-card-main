@@ -23,6 +23,10 @@ export const Summary = styled.summary`
     display: none; /* Safari has shadow content -webkit-details-marker by default */
   }
 
+  &:focus-visible {
+    outline: var(--border-width-s) solid var(--color-neutral-dark-1);
+  }
+
   [open] & {
     font-weight: var(--font-weight-bold);
     color: var(--color-neutral-dark-1);
