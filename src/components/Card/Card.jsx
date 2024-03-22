@@ -1,4 +1,4 @@
-import { FrequentlyAskedQuestion } from "../FrequentlyAskedQuestion";
+import { FrequentlyAskedQuestion2 } from "../FrequentlyAskedQuestion2";
 import { DesktopWidth } from "../../constants/Breakpoints";
 import * as PictureStyles from "../../styles/Card.style";
 
@@ -48,7 +48,7 @@ export const Card = () => {
             // fetchpriority="high"
           />
         </picture>
-        <FrequentlyAskedQuestion />
+        <FrequentlyAskedQuestion2 />
       </main>
     </>
   );
