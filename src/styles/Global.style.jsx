@@ -8,7 +8,7 @@ export const BaseStyles = createGlobalStyle`
         --color-neutral-light-2: hsl(240, 5%, 91%); /* #e8e8ea */
         --color-neutral-dark-1: hsl(238, 29%, 17%); /* #1e1f36 */
         --color-neutral-dark-2: hsl(237, 12%, 33%); /* #4b4c5f */
-        --color-neutral-dark-3: hsl(240, 6%, 50%); /* #787887 */
+        --color-neutral-dark-3: hsl(240, 7%, 46%); /* #6e6e7d */
         --color-hover-1: hsl(14, 88%, 65%); /* #f47b56 */
         --color-hover-2: hsl(56, 95%, 56%); /* #f9eb24 */
         --color-box-shadow: hsla(261, 75%, 27%, 49.72%); /* #35127a */
