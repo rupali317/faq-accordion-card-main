@@ -80,7 +80,7 @@ Users should be able to:
 
 - Attempt this challenge using Javascript.
 - I think the handling of the images can be improved since currently there is a fixed width and height for those images. Additionally, explore better ways to position the images.
-- Finnd out why screen reader like MacOS Voiceover does not read the expanded content when the accordian is expanded.
+- Find out why screen reader like MacOS Voiceover does not read the expanded content when the accordian is expanded.
 
 ### Useful resources
 
