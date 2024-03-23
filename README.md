@@ -32,26 +32,26 @@ Users should be able to:
 
 ##### 1. Desktop version
 
-![](./public/assets/images/Results%20summary%20component%20desktop%20version.png)
+![FAQ accordian card desktop](./public/images/FAQ-accordian-card-desktop.png)
 
 ##### 2. Mobile version
 
-![](./public/assets/images/Results%20summary%20component%20mobile%20version.png)
+![FAQ accordian card mobile](./public/images/FAQ-accordian-card-mobile.png)
 
 ### PageSpeed Insights results
 
-[Mobile version]()
+[Mobile version](https://pagespeed.web.dev/analysis/https-faq-accordian-card-rc-netlify-app/624sa3dq6f?form_factor=mobile)
 
-![PageSpeed insights mobile](./public/assets/images/Page-speed-insights-mobile.png)
+![PageSpeed insights mobile](./public/images/Page-speed-insights-mobile.png)
 
-[Desktop version]()
+[Desktop version](https://pagespeed.web.dev/analysis/https-faq-accordian-card-rc-netlify-app/624sa3dq6f?form_factor=desktop)
 
-![PageSpeed insights desktop](./public/assets/images/Page-speed-insights-desktop.png)
+![PageSpeed insights desktop](./public/images/Page-speed-insights-desktop.png)
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [FAQ accordian card Github link](https://github.com/rupali317/faq-accordion-card-main)
+- Live Site URL: [FAQ accordian card live URL](https://faq-accordian-card-rc.netlify.app/)
 
 ## My process
 
