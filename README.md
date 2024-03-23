@@ -24,9 +24,9 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Hide/Show the answer to a question when the question is clicked
+- View the optimal layout for the component depending on their device's screen size.
+- See hover states for all interactive elements on the page.
+- Hide/Show the answer to a question when the question is clicked.
 
 ### Screenshots
 
@@ -74,15 +74,18 @@ Users should be able to:
 
 ### What I learned
 
-- TBD
+- Initially, my go-to-approach was to implement using Javascript. However, when the challenge mentioned that the final result can be achieved without Javascript, I decided to explore more semantic elements and that was when I learnt about the `<detail>` tag.
 
 ### Continued development
 
-TBD
+- Attempt this challenge using Javascript.
+- I think the handling of the images can be improved since currently there is a fixed width and height for those images. Additionally, explore better ways to position the images.
+- Finnd out why screen reader like MacOS Voiceover does not read the expanded content when the accordian is expanded.
 
 ### Useful resources
 
-- []() - This helped me 
+- [Details HTML tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) - This resource was especially useful when it came to reflect on how to handle the challenge without using Javascript.
+- [How to modify position of detail marker](https://stackoverflow.com/questions/56758098/how-to-position-detail-marker-to-come-after-summary) - I give credit to this link as it explains how to modify the positioning of the `<detail>` marker. It gave me an idea on how to hide default marker.
 
 ## Author
 

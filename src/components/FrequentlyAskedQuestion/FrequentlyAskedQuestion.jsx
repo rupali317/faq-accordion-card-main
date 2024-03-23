@@ -5,8 +5,6 @@ export const FrequentlyAskedQuestion = () => {
   const faqList = data.map((item, index) => {
     return (
       <FaqStyles.Section key={index}>
-        {" "}
-        {/*RRC: Check the tag*/}
         <FaqStyles.Details>
           <FaqStyles.Summary>
             <span>{item.question}</span>
