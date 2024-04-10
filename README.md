@@ -94,4 +94,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-- I express my gratitude towards my mentor - Deborah for the insightful code review session and for demonstrating how styled ocmponents can be used to effectively display the variation in stylings of results.
+- I express my gratitude towards my mentor - Deborah for the insightful code review session
